@@ -24,14 +24,46 @@
 butun bu asamalari yaptiktan sonra geriye oyuna girip sunucuyu kaydetmek ve oynamak kaliyor (sunucuyu baslatmayi unutma)
 
 </ol>
-<form action="https://aternos.org/servers/" method="POST">
+<form action="https://aternos.org/servers/" method="GET">
   <div>
     <label>isim girin</label>
     <input type="text" name="isim_imputu">
+    <hr>
   </div>
   <div>
   <label>mail girin</label>
   <input type="email" name="mail_imputu">
+  <hr>
+</div>
+<div>
+<label>sifre girin</label>
+<input type="password" name="sifre_imputu">
+<hr>
+</div>
+<div>
+<label>cinsiyet secin</label>
+<div>
+<div>
+<span>erkek: </span><input type="radio" name="cinsiyet" value="erkek">
+</div>
+<div>
+  <span>kadin: </span<><input type="radio" name="cinsiyet" value="kadın">
+</div>
+</div>
+</div>
+<div>
+  <hr>
+  <label>hobileriniz</label><div>
+  <span>kitap okumak: </span><input type="checkbox" name="hobi" value="kitap okumak">
+  </div><div>
+  <span>resim cizmek: </span><input type="checkbox" name="hobi" value="resim cizmek">
+  </div>
+</div>
+
+<div>
+  
+<textarea></textarea>
+
 </div>
 
 <button type="submit">gonder</button>
