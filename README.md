@@ -1,3 +1,3 @@
-# web-platform-ccgcvu
+# bu benim web sitem
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-ccgcvu)
+merhaba ben melih efe ve html öğreniyorum
