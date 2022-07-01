@@ -1,16 +1,17 @@
-*{
+* {
   padding: 0;
   margin: 0;
-font-family: sans-serif;
+  font-family: sans-serif;
 }
-.banner{
+.banner {
   height: 100vh;
-  width: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8),url(2.jpg);
+  background-image: linear-gradient(rgba(255, 0, 0, 0.664), #20009681),
+    url('https://cdn.pixabay.com/photo/2021/10/23/09/24/ink-6734478_960_720.jpg');
+
   background-position: center;
   background-size: cover;
 }
-.navbar{
+.navbar {
   display: flex;
   width: 90%;
   margin: auto;
@@ -18,16 +19,50 @@ font-family: sans-serif;
   align-items: center;
   justify-content: space-between;
 }
-.logo{
+.logo {
+  height: 50px;
   cursor: pointer;
   border-radius: 50%;
 }
-.navbar ul li{
+.navbar ul li {
   list-style-type: none;
   display: inline-block;
   margin: 0 25px;
 }
-.navbar ul li a{
-text-decoration: none;
-color: #fff;
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.content p{
+  text-decoration: none;
+  color: #fff;
+}
+.content h1{
+  text-decoration: none;
+  color: red;
+  font-size: 25px;
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 25%;
+left: 10%;
+}
+button{
+  width: 100px;
+  font-weight: 600;
+  padding: 2px 0px;
+  border-radius: 25px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: yellow;
+}
+button:hover{
+  color: rgb(255, 0, 0);
+  transition: 1s;
+}
+.navbar ul li a:hover{
+  color: blue;
+  transition: 2s;
 }
