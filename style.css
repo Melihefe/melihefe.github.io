@@ -17,5 +17,17 @@ font-family: sans-serif;
   padding: 32px 0;
   align-items: center;
   justify-content: space-between;
-
+}
+.logo{
+  cursor: pointer;
+  border-radius: 50%;
+}
+.navbar ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 25px;
+}
+.navbar ul li a{
+text-decoration: none;
+color: #fff;
 }
